@@ -15,7 +15,10 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....Stage'
+
+                error "this is failed..."
             }
+
         }
     }
  post { 

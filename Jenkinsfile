@@ -9,7 +9,7 @@ pipeline {
                 sh '''
                    ls -l
                    pwd
-                   echo "Hello this is from build stage via scripts"
+                   echo "Hello this is from github webhook push"
 
                 '''
             }

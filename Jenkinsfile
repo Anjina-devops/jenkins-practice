@@ -8,6 +8,7 @@ pipeline {
 
                 sh '''
                    ls -l
+                   date
                    pwd
                    echo "Hello this is from github webhook push"
 

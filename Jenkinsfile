@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..Stage'
+                echo 'Building..Stage....OKKKKKKKKKKKKKK'
 
                 sh '''
                    ls -l
